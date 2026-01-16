@@ -11,7 +11,7 @@ import streamlit as st
 import sqlite3
 
 
-DB_NAME = "memory.db"
+DB_NAME = "SQLite.db"
 
 def init_db():
     conn = sqlite3.connect(DB_NAME)
